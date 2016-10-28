@@ -173,7 +173,7 @@
 						},
 				})
 				.done(function(rs) {
-					alert('Thành công');
+					alert('Thành công!');
 					$("input[name=id]").val(rs.book.id);
 				})
 				.fail(function(rs) {
@@ -193,7 +193,7 @@
 					}
 				})
 				.done(function(rs) {
-					alert('Thành công');
+					alert('Thành công!');
 					$("input[name=id]").val("");
 					$(title).val("");
 					$(author).val("");
